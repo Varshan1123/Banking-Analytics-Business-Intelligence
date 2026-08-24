@@ -90,13 +90,13 @@ Implementing this centralized analytics solution will deliver immediate strategi
 
 1. Duplicate Primary Key Check-> Ensure every **Transaction_ID** is unique using Conditional Formatting.
 2. Missing / Blank Values Check -> using (go to special) ctrl+a & ctrl+g ->special->blank.
-3. Data Type & Formatting Rules \n
-   For Transaction_Amount & Account_Balance **->** Change dropdown from _General_ to Number (set decimal places to 2).\n
-   For Transaction_Date **\->** Change dropdown to Custom (YYYY-MM-DD HH:MM)\n
-4. Category Standardization (Spelling & Whitespace)\n
-   For Transaction_Type, Transaction_Channel, Location, Customer_Occupation -> Insert PivotTable and check spelling consistency error\n
-5. Boundary & Logical Constraints (Data Validation Rules)\n
-   For Customer_Age -> Go to Data tab -> Data Validation -> Under Allow, choose Whole Number -> Set Data to Between Min: 18 | Max: 100\n
+3. Data Type & Formatting Rules<br>
+   For Transaction_Amount & Account_Balance **->** Change dropdown from _General_ to Number (set decimal places to 2).<br>
+   For Transaction_Date **\->** Change dropdown to Custom (YYYY-MM-DD HH:MM)
+4. Category Standardization (Spelling & Whitespace)<br>
+   For Transaction_Type, Transaction_Channel, Location, Customer_Occupation -> Insert PivotTable and check spelling consistency error
+5. Boundary & Logical Constraints (Data Validation Rules)<br>
+   For Customer_Age -> Go to Data tab -> Data Validation -> Under Allow, choose Whole Number -> Set Data to Between Min: 18 | Max: 100<br>
    For Login_Attempts -> -> Go to Data tab -> Data Validation -> Under Allow, choose Whole Number -> Greater than or equal to 0.
 
 **Step 4: Create the Database**
